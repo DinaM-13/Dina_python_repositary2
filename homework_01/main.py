@@ -63,4 +63,4 @@ print(filter_numbers([1, 2, 3, 4, 5, 25, 17, 19], PRIME))
     # <<< [1, 3]
     # >>> filter_numbers([2, 3, 4, 5], EVEN)
     # <<< [2, 4]
-    # ""
+
