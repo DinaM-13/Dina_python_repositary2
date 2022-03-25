@@ -51,6 +51,16 @@ def filter_numbers(numbers, t):
         result = list(filter(is_prime, numbers))
         return result
 
-print(list(filter_numbers([1, 2, 3, 4], ODD)))
-print(list(filter_numbers([1, 2, 3, 4], EVEN)))
-print(list(filter_numbers([1, 2, 3, 4, 5, 25, 17, 19], PRIME)))
+print(filter_numbers([1, 2, 3, 4], ODD))
+print(filter_numbers([1, 2, 3, 4], EVEN))
+print(filter_numbers([1, 2, 3, 4, 5, 25, 17, 19], PRIME))
+    # """
+    # функция, которая на вход принимает список из целых чисел,
+    # и возвращает только чётные/нечётные/простые числа
+    # (выбор производится передачей дополнительного аргумента)
+    #
+    # >>> filter_numbers([1, 2, 3], ODD)
+    # <<< [1, 3]
+    # >>> filter_numbers([2, 3, 4, 5], EVEN)
+    # <<< [2, 4]
+    # ""
